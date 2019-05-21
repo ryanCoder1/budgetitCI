@@ -1,0 +1,290 @@
+/* CSS styles for budgetit app */
+/* Nav Bar */
+.nav-position {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+}
+.nav-design {
+  color: rgb(42, 126, 195) !important;
+  font-weight: bold;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+}
+.nav-design-active {
+  color:  rgb(61, 144, 213) !important;
+  font-weight: normal;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+}
+/* Carousel Header */
+
+#slidercaption {
+  position: relative;
+  top: -60px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+}
+.carousel-inner .item {
+
+    width: 100%; height: 100vh;
+    background-position: center;
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+#carIndicators {
+  margin-bottom: 10%;
+}
+
+
+
+.carousel-caption {
+  margin-bottom: 17%;
+}
+.bg-full-light {
+  background: rgba(255,255,255, 1);
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+}
+.bg-opacity-light {
+  background: rgba(255,255,255, .7);
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+}
+.bg-opacity-dark-blue {
+  background: rgba(24, 55, 77, .5);
+}
+.bg-opacity-red {
+  background: rgba(238, 58, 18, 0.5);
+}
+.bg-opacity-white {
+  background: rgba(255, 255, 255, 0.5);
+}
+.text-lg-personal {
+  font-size: 20px;
+}
+.caption-mw {
+  max-width: 700px !important;
+}
+/* Section images */
+#secImages {
+  background-color: rgba(24, 55, 77, 1);
+
+}
+#imgWrapper {
+  max-width: 900px;
+
+}
+.width-sec-images {
+  width: 300px;
+  height: 300px;
+}
+.width-sec-images img {
+  width: 100%;
+  height: 100%;
+}
+
+.img{
+  transition: .5s;
+}
+.img-span-1{
+  width: 80%;
+  position: absolute;
+  top: 15%;
+  left: 8%;
+  z-index: 10;
+  margin: 0 auto;
+  height: 1px;
+  background-color: rgb(176, 176, 176);
+  transform: scaleX(.0001);
+  -webkit-transform: scaleX(.0001);
+  -moz-transform: scaleX(.0001);
+  -o-transform: scaleX(.0001);
+  -ms-transform: scaleX(.0001);
+   transition: .5s ease-in-out;
+   -webkit-transition: .5s ease-in-out;
+   -moz-transition: .5s ease-in-out;
+   -o-transition: .5s ease-in-out;
+}
+.img-span-2{
+  width: 80%;
+  position: absolute;
+  bottom: 15%;
+  left: 8%;
+  z-index: 10;
+  margin: 0 auto;
+  height: 1px;
+  background-color: rgb(176, 176, 176);
+  transform: scaleX(.0001);
+  -webkit-transform: scaleX(.0001);
+  -moz-transform: scaleX(.0001);
+  -o-transform: scaleX(.0001);
+  -ms-transform: scaleX(.0001);
+   transition:  .5s ease-in-out;
+   -webkit-transition: .5s ease-in-out;
+   -moz-transition: .5s ease-in-out;
+   -o-transition: .5s ease-in-out;
+
+}
+.caption-img-container {
+  color: rgb(217, 217, 217);
+  overflow: hidden;
+}
+.caption-img-container p {
+  margin: 0 15px;
+
+  transform: translateX(110%);
+  -webkit-transform: translateX(110%);
+  -moz-transform: translateX(110%);
+  -o-transform: translateX(110%);
+  -ms-transform: translateX(110%);
+   transition:  .8s ease-in-out;
+   -webkit-transition: .3s;
+   -moz-transition: .3s;
+   -o-transition: .3s;
+}
+.img:hover p {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+}
+.img:hover img{
+  filter: brightness(.30);
+  -webkit-filter: brightness(.30);
+  -moz-filter: brightness(.30);
+  -o-filter: brightness(.30);
+}
+.img:hover .img-span-1  {
+  transform: translateY(5px)  scaleX(1);
+  -webkit-transform: translateY(5px)  scaleX(1);
+  -moz-transform: translateY(5px)  scaleX(1);
+  -o-transform: translateY(5px)  scaleX(1);
+  -ms-transform: translateY(5px)  scaleX(1);
+}
+.img:hover .img-span-2  {
+  transform: translateY(-5px)  scaleX(1);
+  -webkit-transform: translateY(-5px)  scaleX(1);
+  -moz-transform: translateY(-5px)  scaleX(1);
+  -o-transform: translateY(-5px)  scaleX(1);
+  -ms-transform: translateY(-5px)  scaleX(1);
+}
+
+/* Section Address cards */
+
+
+
+/* FORM CSS */
+.form-header {
+  margin-top: 50px;
+}
+.form-container {
+  margin-top: 0;
+  margin-bottom: 150px;
+
+}
+.text-small {
+  font-size: 16px !important;
+}
+.fixed-width-sm {
+  width: 150px;
+}
+.min-width-form {
+  min-width: 300px;
+}
+.marg-left-neg {
+  margin-left: -15px;
+}
+.max-width-form {
+   max-width: 500px;
+   width: 100%;
+}
+.text-red {
+  color: rgb(177, 46, 46);
+}
+
+/* BUDGET VIEWER STYLES */
+
+.max-width-viewer {
+  max-width: 600px;
+}
+.dis-inline {
+  display: inline !important;
+}
+
+.max-width-category {
+  max-width: 300px;
+}
+.f-size-category {
+  font-size: 16px;
+}
+.info-li:last-child {
+  border-bottom: solid thin transparent !important;
+}
+.text-dec {
+  text-decoration: underline;
+  text-decoration-color: #007bff;
+}
+.max-width-count {
+  max-width: 35px;
+  min-width: 25px;
+
+}
+.rounded-personal {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+.shadow-lg-personal {
+  box-shadow: 0 0 4px 1px rgba(0,0,0,.2);
+}
+.category-link:target span {
+  font-weight: bold;
+  font-style: italic;
+}
+.border-color-grey {
+  border-color: rgb(187, 187, 187);
+}
+/* Medium md 768 screen width */
+@media screen and  (max-width: 768px) {
+
+  .margin-md {
+    margin-left: 15px !important;
+  }
+ .max-width-input {
+    max-width: 400px;
+    width: 100%;
+ }
+ .width-btn-sm {
+   width: 200px;
+ }
+}
+/* Medium md 768 screen width */
+@media screen and  (max-width: 576px) {
+
+  .margin-xs {
+    margin-left: 0px !important;
+  }
+
+}
