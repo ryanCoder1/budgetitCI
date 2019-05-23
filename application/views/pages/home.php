@@ -34,6 +34,9 @@
   </a>
 </header>
 <main>
+
+  <!-- About section -->
+
   <section class="pb-5">
     <h3 class="text-center mb-4 text-secondary font-weight-light"><span class="font-weight-bold">About</span> Us</h3>
     <hr class="mx-auto max-width-form text-secondary">
@@ -69,7 +72,9 @@
       </div>
     </div>
   </section>
+  <!-- End of about section -->
   <!-- Section of motivation images -->
+
   <section id="secImages" class="py-5">
     <div id="imgWrapper" class="mx-auto d-flex justify-content-center align-items-center flex-wrap text-center">
       <div class="position-relative width-sec-images caption-img-container img d-flex justify-content-center align-items-center">
@@ -127,5 +132,28 @@
       </div>
     </div>
   </section>
+  <!-- End of section motivation images -->
+  <!-- Section of App description -->
+  <section class="my-5">
+    <div class="row sec-app-viewer ">
+      <!-- App image scroll -->
+      <div class="w-50 bg-light py-5 d-flex justify-content-center align-items-center border-radius-right-15 border">
+        <ul class="app-ul list-group  border">
+          <li ><img src="assets\img\budgetviewerimg1.png" alt="App budget Viewer image" ></li>
+        </ul>
+      </div>
+      <!-- Description of App -->
+      <div class="w-50 px-5 bg-white align-middle ">
+        <h3 class="marg-top-12 text-secondary">App Offers</h3>
+        <hr class="ml-0 width-95 text-secondary">
 
+        <p class="m-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <hr class="ml-0 mt-2 width-95 text-secondary">
+        <div class="row float-right mt-2 mr-5">
+            <a class="btn btn-outline-primary text-size-21 " href="'. base_url() .'register">Register</a>
+            <a class="btn btn-outline-primary ml-3 text-size-21 " href="'. base_url().'login">Log in</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
